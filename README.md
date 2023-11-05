@@ -234,13 +234,13 @@ q=test&submitSearch=%E6%A4%9C%E7%B4%A2　       //←15行目
 -  **200番台は成功** 、 **400番台はブラウザ側のエラー** 、 **500番台はサーバー側のエラー** を意味する。
 - 下図はHTTPステータスコードで頻出する代表例。
 
- | 番号 | 操作内容           |
- |:----:|:-------------------|
- | 200  | 成功               |
- | 201  | 作成完了           |
- | 400  | 不正なリクエスト   |
- | 404  | 存在しない         |
- | 500  | サーバ内部のエラー |
+ | 番号 | 操作内容                              |
+ |:----:|:----------------------------------|
+ | 200  | OK (成功)                           |
+ | 201  | CREATED (作成完了)                    |
+ | 400  | BAD REQUEST (不正なリクエスト)            |
+ | 404  | NOT FOUND (存在しない)                 |
+ | 500  | INTERNAL SERVER ERROR (サーバ内部のエラー) |
 
 
 * * * 
@@ -342,8 +342,8 @@ JSONでは、これと配列を利用して複合的なデータ構造を記述�
 
 データベースの中にある、個人のアカウント情報の一例。
 
-![assignment5 – accountInformation.jason 2023_11_05 20_36_41.jpg](..%2F..%2FVideos%2FCaptures%2Fassignment5%20%E2%80%93%20accountInformation.jason%202023_11_05%2020_36_41.jpg)
 
+![assignment5 – accountInformation.jason 2023_11_05 20_36_41.png](..%2F..%2FVideos%2FCaptures%2Fassignment5%20%E2%80%93%20accountInformation.jason%202023_11_05%2020_36_41.png)
 
 
 * * * 
@@ -360,9 +360,5 @@ JSONでは、これと配列を利用して複合的なデータ構造を記述�
 - [IT用語辞典 e-Words](https://e-words.jp/w/HTTP%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%98%E3%83%83%E3%83%80.html#:~:text=HTTP%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%98%E3%83%83%E3%83%80%E3%81%A8%E3%81%AF%E3%80%81Web%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%81%AE%E4%BC%9D%E9%80%81%E3%81%AB,%E3%81%AE%E8%A9%B3%E7%B4%B0%E3%82%92%E8%A8%98%E8%BF%B0%E3%81%99%E3%82%8B%E3%80%82 "HTTPリクエストヘッダとは、Webコンテンツの伝送に,の詳細を記述する。")
 - [Qiita](https://qiita.com/Qiita/items/c686397e4a0f4f11683d "Markdown記法 チートシート")
 - [Techpit](https://techpit-market.gitbook.io/host-guide/4/markdown "見やすい文章を書くためのマークダウンの書き方")
-
-
-
-[def]: image.png
 
 
