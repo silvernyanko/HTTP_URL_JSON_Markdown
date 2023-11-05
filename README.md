@@ -338,12 +338,42 @@ JSONでは、これと配列を利用して複合的なデータ構造を記述�
 * * * 
 
 
-## JSONのデータサンプル
+## JASONのデータサンプル
 
-データベースの中にある、個人のアカウント情報の一例。
+<details><summary>データベースの中にある、個人のアカウント情報の一例。</summary>
 
-
-![JASONのサンプル](https://drive.google.com/file/d/1HRRPoELNZyBrfEldJHn8sLKAAnolhNWd/view?usp=drive_link)
+```
+"accountInformation": [
+    {
+        "name": "Monkey.D.Luffy",
+        "gender": "male",
+        "age": 19,
+        "dateOfBirthday": "May 5th",
+        "adress": "Fusha Village",
+        "email": "luffy.kingOfPirates@strawhat.com",
+        "password": "niku"
+    },
+    {
+        "name": "Roronoa Zoro",
+        "gender": "male",
+        "age": 21,
+        "dateOfBirthday": "November 11th",
+        "adress": "Shimotsuki Village",
+        "email": "world.greatest.swordsman@strawhat.com",
+        "password": "neverLoseAgain"
+    },
+    {
+        "name": "Nami",
+        "gender": "female",
+        "age": 20,
+        "dateOfBirthday": "July 3rd",
+        "adress": "Cocoyashi Village",
+        "email": "orange.windmill@strawhat.com",
+        "password": "iLoveMoney"
+    }
+]
+```
+</details>
 
 
 * * * 
