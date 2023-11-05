@@ -343,7 +343,7 @@ JSONでは、これと配列を利用して複合的なデータ構造を記述�
 データベースの中にある、個人のアカウント情報の一例。
 
 
-![assignment5 – accountInformation.jason 2023_11_05 20_36_41.png](..%2F..%2FVideos%2FCaptures%2Fassignment5%20%E2%80%93%20accountInformation.jason%202023_11_05%2020_36_41.png)
+![JASONのサンプル](https://drive.google.com/file/d/1HRRPoELNZyBrfEldJHn8sLKAAnolhNWd/view?usp=drive_link)
 
 
 * * * 
