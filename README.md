@@ -178,6 +178,8 @@ UsersTable
 > 　　 POST通信のときの受け渡されるパラメータの内容など、補足のメモ書きが書いてある（下図15行目～）。  
 
 
+<details><summary>HTTPリクエストサンプルコード。</summary>
+
 ```
 POST /search.html HTTP/1.1\r\n　               //←1行目
 Host: wa3.i-3-i.info\r\n　                     //←2行目
@@ -195,6 +197,7 @@ Accept-Language: ja,en-US;q=0.8,en;q=0.6\r\n
 \r\n　                                         //←14行目
 q=test&submitSearch=%E6%A4%9C%E7%B4%A2　       //←15行目
 ```
+</details>
 
 
  | HTTPメソッド | はたらき                               | 
@@ -279,6 +282,8 @@ q=test&submitSearch=%E6%A4%9C%E7%B4%A2　       //←15行目
 > ３． **HTTPレスポンスボディ** （レスポンスボディ、下図8行目～）  
 
 
+<details><summary>HTTPレスポンスサンプルコード。</summary>
+
 ```
 HTTP/1.1 200 OK\r\n　              //←1行目
 Server: nginx\r\n　                //←2行目
@@ -312,6 +317,7 @@ Connection: keep-alive\r\n
 </html>\r\n
 \r\n
 ```
+</details>
 
 
 * * * 
@@ -340,40 +346,7 @@ JSONでは、これと配列を利用して複合的なデータ構造を記述�
 
 ## JASONのデータサンプル
 
-<details><summary>データベースの中にある、個人のアカウント情報の一例。</summary>
-
-```
-"accountInformation": [
-    {
-        "name": "Monkey.D.Luffy",
-        "gender": "male",
-        "age": 19,
-        "dateOfBirthday": "May 5th",
-        "adress": "Fusha Village",
-        "email": "luffy.kingOfPirates@strawhat.com",
-        "password": "niku"
-    },
-    {
-        "name": "Roronoa Zoro",
-        "gender": "male",
-        "age": 21,
-        "dateOfBirthday": "November 11th",
-        "adress": "Shimotsuki Village",
-        "email": "world.greatest.swordsman@strawhat.com",
-        "password": "neverLoseAgain"
-    },
-    {
-        "name": "Nami",
-        "gender": "female",
-        "age": 20,
-        "dateOfBirthday": "July 3rd",
-        "adress": "Cocoyashi Village",
-        "email": "orange.windmill@strawhat.com",
-        "password": "iLoveMoney"
-    }
-]
-```
-</details>
+![assignment5 – accountInformation jason 2023_11_05 20_36_41](https://github.com/silvernyanko/assignment5/assets/145736051/5dafe8fb-c5a5-4f7c-b1c7-c804d5dda3d0)
 
 
 * * * 
