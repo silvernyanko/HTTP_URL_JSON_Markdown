@@ -325,7 +325,7 @@ Connection: keep-alive\r\n
 
 ## JSONとは何か
 
-JSONとは、JSONとは、JavaScriptにおけるオブジェクトの表記法を応用したテキスト（文字）ベースのデータ形式。
+JSONとは、 *JavaScript Object Notation* の略で、JavaScriptにおけるオブジェクトの表記法を応用したテキスト（文字）ベースのデータ形式。
 多数の要素が複雑な構造で組み合わせられたデータを簡潔な表記で書き表すことができる。
 JavaScriptプログラム上ではコードとして実行するだけで読み込みが完了する。
 
@@ -344,7 +344,7 @@ JSONでは、これと配列を利用して複合的なデータ構造を記述�
 * * * 
 
 
-## JASONのデータサンプル
+## JSONのデータサンプル
 
 ![assignment5 – accountInformation jason 2023_11_05 20_36_41](https://github.com/silvernyanko/assignment5/assets/145736051/5dafe8fb-c5a5-4f7c-b1c7-c804d5dda3d0)
 
